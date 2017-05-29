@@ -52,8 +52,37 @@
         background-image: url(../img/taxi.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
-        background-position: top center;
+        background-position: bottom center;
         height: 88vh;
+    }
+    .yellow-box {
+        background-color: #F7B617;
+        color: #fff;
+        position: absolute;
+        right: 0;
+        bottom: 125px;
+        width: 325px;
+        height: 290px;
+        padding: 3em;
+    }
+    .yellow-box p:first-child {
+        font-size: 2.6em;
+        line-height: 40px;
+        margin: 0;
+    }
+    .yellow-box img {
+        position: relative;
+        top: 4px;
+        left: 10px;
+        height: 25px;
+        margin-bottom: 3em;
+    }
+    .yellow-box button {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #000;
+        border-radius: 5px;
+        padding: 0.75em;
     }
     .hide-for-small {
         display: none;
