@@ -57,11 +57,11 @@
     }
     .yellow-box {
         color: #fff;
-        position: absolute;
-        right: 0;
+        float: right;
         bottom: 125px;
-        width: 325px;
+        width: 80%;
         height: 290px;
+        margin-top: 150px;
         padding: 3em;
     }
     .yellow-box p:first-child {

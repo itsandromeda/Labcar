@@ -35,17 +35,15 @@
         background-size: 100%;
         background-position: center 92%;
         height: 100vh;
-        position: relative;
     }
     .yellow-box {
         background-color: #F7B617;
         color: #fff;
-        position: absolute;
-        right: 0;
-        bottom: 150px;
+        float: right;
         width: 548px;
         height: 382px;
         padding: 3em;
+        margin-top: 135px;
     }
     .yellow-box button {
         font-size: 1.2em;
