@@ -48,6 +48,13 @@
     #menu-options a:hover {
         text-decoration: none;
     }
+    .taxi-bg {
+        background-image: url(../img/taxi.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: top center;
+        height: 88vh;
+    }
     .hide-for-small {
         display: none;
     }

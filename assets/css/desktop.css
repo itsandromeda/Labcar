@@ -29,4 +29,11 @@
     .hide-for-medium {
         display: none;
     }
+    .taxi-bg {
+        background-image: url(../img/taxi.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center 92%;
+        height: 100vh;
+    }
 }
