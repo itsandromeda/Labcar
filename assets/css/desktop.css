@@ -8,13 +8,19 @@
     header .row {
         width: 80%;
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    header nav .col-md-2 {
+        display: flex;
+        justify-content: flex-start;
     }
     header nav .col-md-10 {
         display: flex;
         justify-content: flex-end;
         padding: 0;
+        margin: 0;
     }
     nav li {
         margin: 0;

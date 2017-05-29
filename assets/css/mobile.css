@@ -1,6 +1,7 @@
 @media screen and (max-width: 460px) {
     header {
         background-color: #fff;
+        border-bottom: 1px solid #ccc;
         display: flex;
         justify-content: center;
         height: 120px;
@@ -11,6 +12,13 @@
         display: flex;
         align-items: center;
         width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    header .row:nth-child(2) {
+        display: block;
+        margin: 0;
+        padding: 0;
     }
     header .row .col-sm-2 {
         font-size: 1.3em;
@@ -21,11 +29,7 @@
         color: #ccc;
     }
     header .row .col-sm-10 {
-        position: absolute;
-        width: 12em;
-        margin: auto;
-        left: 0;
-        right: 0;
+        margin-left: 22%;
     }
     header img {
         height: 20px;
@@ -33,6 +37,16 @@
     nav li {
         margin: 0;
         margin-left: 4em;
+    }
+    #menu-options li {
+        padding: 3.5em 1.5em;
+    }
+    #menu-options a {
+        color: #333;
+        cursor: pointer;
+    }
+    #menu-options a:hover {
+        text-decoration: none;
     }
     .hide-for-small {
         display: none;
