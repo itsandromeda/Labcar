@@ -108,6 +108,37 @@
         font-size: 1.4em;
         margin: 0;
     }
+    .driving-bg {
+        background-image: url(../img/conduce.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #conduce .col-md-4 {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 4em 1em;
+    }
+    #conduce .col-md-4 h3 {
+        font-weight: 600;
+    }
+    #conduce .col-md-4 h3,
+    #conduce .col-md-4 p {
+        font-size: 1.2em;
+    }
+    #conduce .col-md-4 p {
+        width: 80%;    
+        margin-bottom: 1.5em;
+    }
+    #conduce button {
+        font-size: 1.2em;
+        padding: 0.8em 1.5em;
+        color: #fff;
+        border: 0;
+    }
+    #conduce button:hover {
+        background-color: #ffb400;
+    }
     .hide-for-small {
         display: none;
     }
