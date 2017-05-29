@@ -3,6 +3,14 @@
     transition: 0.3s;
 }
 
+.yellow-bg {
+    background-color: #F7B617;
+}
+
+.white-border {
+    border: 1px solid #fff;
+}
+
 nav a {
     font-size: 1.2em;
     font-weight: 600;
