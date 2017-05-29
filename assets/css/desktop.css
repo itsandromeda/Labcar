@@ -78,12 +78,44 @@
         margin-bottom: 2.5em;
     }
     .yellow-box p:nth-child(7) {
-        background-color: #F7B617;
         text-align: center;
         position: relative;
         margin: 0;
         width: 40%;
         top: -30px;
         margin: auto;
+    }
+    .yellow-bg {
+        background-color: #F7B617;
+    }
+    .white-border {
+        border: 1px solid #fff;
+    }
+    #descarga {
+        color: #fff;
+        padding: 3em 0;
+    }
+    #descarga .row {
+        width: 80%;
+        padding: 3em;
+        overflow: auto;
+    }
+    #descarga .col-md-6:first-child {
+        text-align: center;
+    }
+    #descarga .col-md-6:last-child {
+        font-size: 1.5em;
+        padding: 0 3em 0 2em;
+    }
+    #descarga h3 {
+        font-size: 1.52em;
+        font-weight: 600;
+        margin-bottom: 1em;
+    }
+    #descarga .col-md-6:last-child p {
+        width: 90%;
+    }
+    #descarga .col-md-6:last-child p:nth-child(2) {
+        margin-bottom: 1em;
     }
 }
