@@ -2,24 +2,6 @@
     font-family: "Open Sans", sans-serif;
 }
 
-header {
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    height: 120px;
-}
-
-header nav {
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-nav li {
-    margin-left: 4em;
-}
-
 nav a {
     font-size: 1.2em;
     font-weight: 600;

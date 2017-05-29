@@ -1,0 +1,26 @@
+@media (min-width: 460px) {
+    header {
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        height: 120px;
+    }
+    header .row {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header nav .col-md-10 {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0;
+    }
+    nav li {
+        margin: 0;
+        margin-left: 4em;
+    }
+    .hide-for-medium {
+        display: none;
+    }
+}

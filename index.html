@@ -9,15 +9,24 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/bootstrap-3.3.5-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/desktop.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <!-- Fonts Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:100,300,400,500,600,700,900" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <img src="assets/img/logo.png" height="30">
-            <ul class="list-inline">
+    <header class="container-fluid">
+        <nav class="row">
+            <div class="col-sm-1 hide-for-medium">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="col-sm-11 col-md-2">
+                <img src="assets/img/logo.png" height="30">
+            </div>
+            <ul class="col-md-10 list-inline hide-for-small">
                 <li><a>Viaja</a></li>
                 <li><a>Conduce</a></li>
                 <li><a>Inicia sesión</a></li>
