@@ -86,17 +86,20 @@
     #descarga {
         color: #fff;
         padding: 3em 0;
+        height: 450px;
     }
     #descarga .row {
         width: 80%;
+        height: 100%;
         padding: 3em;
-        overflow: auto;
     }
-    #descarga .col-md-6:first-child {
+    #descarga .col-md-6:first-child img {
         text-align: center;
+        height: 290px;
+        margin-left: 80px;
     }
     #descarga .col-md-6:last-child {
-        font-size: 1.5em;
+        font-size: 1.2em;
         padding: 0 3em 0 2em;
     }
     #descarga h3 {
@@ -109,5 +112,29 @@
     }
     #descarga .col-md-6:last-child p:nth-child(2) {
         margin-bottom: 1em;
+    }
+    .driving-bg {
+        background-image: url(../img/conduce.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center 55%;
+        height: 450px;
+    }
+    #conduce .col-md-4 {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        height: 450px;
+        padding: 3em;
+        float: right;
+    }
+    #conduce .col-md-4 h3 {
+        margin-top: 3em;
+    }
+    #conduce button {
+        color: #fff;
+        border: 0;
+    }
+    #conduce button:hover {
+        background-color: #ffb400;
     }
 }
