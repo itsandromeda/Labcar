@@ -35,5 +35,55 @@
         background-size: 100%;
         background-position: center 92%;
         height: 100vh;
+        position: relative;
+    }
+    .yellow-box {
+        background-color: #F7B617;
+        color: #fff;
+        position: absolute;
+        right: 0;
+        bottom: 150px;
+        width: 548px;
+        height: 382px;
+        padding: 3em;
+    }
+    .yellow-box button {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #000;
+        border-radius: 5px;
+        padding: 0.75em;
+    }
+    .yellow-box p:first-child,
+    .yellow-box p:nth-child(2) {
+        font-size: 2.6em;
+        line-height: 35px;
+        margin: 0;
+    }
+    .yellow-box p:nth-child(2) {
+        margin-bottom: 1em;
+    }
+    .yellow-box p:nth-child(3) {
+        font-size: 1.5em;
+        float: left;
+        margin-right: 0.7em;
+        margin-bottom: 0.8em;
+    }
+    .yellow-box img {
+        position: relative;
+        top: 5px;
+    }
+    .yellow-box p:nth-child(5) {
+        clear: both;
+        margin-bottom: 2.5em;
+    }
+    .yellow-box p:nth-child(7) {
+        background-color: #F7B617;
+        text-align: center;
+        position: relative;
+        margin: 0;
+        width: 40%;
+        top: -30px;
+        margin: auto;
     }
 }
