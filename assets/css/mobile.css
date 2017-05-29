@@ -127,7 +127,7 @@
         font-size: 1.2em;
     }
     #conduce .col-md-4 p {
-        width: 80%;    
+        width: 80%;
         margin-bottom: 1.5em;
     }
     #conduce button {
@@ -138,6 +138,40 @@
     }
     #conduce button:hover {
         background-color: #ffb400;
+    }
+    #tarifa .row {
+        padding: 6em 0;
+    }
+    #tarifa .row .col-sm-12:first-child {
+        color: white;
+    }
+    #tarifa h3 {
+        margin-bottom: 1em;
+    }
+    #tarifa p {
+        font-size: 1.3em;
+        margin-bottom: 3em;
+    }
+    #tarifa input {
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 8px;
+        width: 90%;
+        padding: 1em;
+        margin: 0 0 0 0.5em;
+        outline: none;
+    }
+    ::-webkit-input-placeholder {
+        color: #fff;
+    }
+    #tarifa .col-md-12 div {
+        margin: 1.5em 0;
+    }
+    #ruta {
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-left: 33%;
+        outline: none;
     }
     .hide-for-small {
         display: none;
