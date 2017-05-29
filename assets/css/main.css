@@ -1,5 +1,6 @@
 * {
     font-family: "Open Sans", sans-serif;
+    transition: 0.3s;
 }
 
 nav a {
@@ -10,6 +11,6 @@ nav a {
 }
 
 nav a:hover {
-    color: #333;
+    color: #ccc;
     text-decoration: none;
 }

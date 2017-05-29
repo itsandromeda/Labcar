@@ -1,4 +1,39 @@
 @media screen and (max-width: 460px) {
+    header {
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        height: 120px;
+        padding: 0;
+    }
+    header .row {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    header .row .col-sm-2 {
+        font-size: 1.3em;
+        color: #666;
+        cursor: pointer;
+    }
+    header .row .col-sm-2:hover {
+        color: #ccc;
+    }
+    header .row .col-sm-10 {
+        position: absolute;
+        width: 12em;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+    header img {
+        height: 20px;
+    }
+    nav li {
+        margin: 0;
+        margin-left: 4em;
+    }
     .hide-for-small {
         display: none;
     }
