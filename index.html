@@ -80,9 +80,33 @@
             </div>
         </div>
     </section>
+    <section id="tarifa" class="container-fluid yellow-bg">
+        <div class="row">
+            <div class="col-md-5">
+                <h3>Tarifas</h3>
+                <p>Consulta las tarifas LabCar aquí</p>
+                <div class="col-md-12">
+                    <div>
+                        <img src="assets/img/circulo.png">
+                        <input id="punto-partida" placeholder="Ingrese su punto de partida">
+                    </div>
+                    <div>
+                        <img src="assets/img/flecha.png">
+                        <input id="punto-partida" placeholder="Ingrese su destino">
+                    </div>
+                </div>
+                <button id="ruta" class="btn btn-default">¡Trazar ruta!</button>
+            </div>
+            <div class="hide-for-small col-md-push-1 col-md-5">
+                <div id="map"></div>
+                <p>(ノಠ益ಠ)ノ彡┻━┻</p>
+            </div>
+        </div>
+    </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
     <script src="assets/js/app.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDt11HcJq53dKxYOLlOOoYGn8XpYzdgM24&callback=initMap&libraries=places"></script>
 </body>
 
 </html>

@@ -137,4 +137,48 @@
     #conduce button:hover {
         background-color: #ffb400;
     }
+    #map {
+        width: 400px;
+        height: 400px;
+    }
+    #tarifa .row {
+        padding: 3em 6em;
+    }
+    #tarifa .row .col-md-5:first-child {
+        color: white;
+    }
+    #tarifa .row .col-md-5:last-child {
+        border: 2px solid #fff;
+    }
+    #tarifa h3 {
+        margin: 2em 0 1em 0;
+    }
+    #tarifa p {
+        font-size: 1.2em;
+    }
+    #tarifa input {
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 8px;
+        width: 65%;
+        padding: 0.5em;
+        margin: 0 0 0 0.5em;
+        outline: none;
+    }
+    ::-webkit-input-placeholder {
+        color: #fff;
+    }
+    #tarifa .col-md-12 div {
+        margin: 1.5em 0;
+    }
+    #ruta {
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-left: 25%;
+        outline: none;
+    }
+    #tarifa .hide-for-small p {
+        font-size: 3em;
+        text-align: center;
+    }
 }
